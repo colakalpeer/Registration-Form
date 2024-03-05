@@ -28,3 +28,24 @@
     object-fit: cover;
     border-radius: 5px;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .form-wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+
+  input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
